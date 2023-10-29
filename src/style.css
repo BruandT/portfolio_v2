@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Color pour les themes */
+@layer base {
+	:root {
+		--text-base: 17, 50, 100;		
+        --text-color: 13, 116, 206;
+
+		--background: 251, 253, 255;
+		--foreground: 244, 250, 255;
+
+		--input: 95, 96, 99;
+		--border: 94, 177, 239;
+
+        --primary: 5, 136, 240;
+        --secondary: 0, 144, 255;
+	}
+    .dark {
+        --text-base: 194, 230, 255;		
+        --text-color: 112, 184, 255;
+
+		--background: 13, 21, 32;
+		--foreground: 17, 25, 39;
+
+		--input: 32, 93, 158;
+		--border: 16, 77, 135;
+
+        --primary: 0, 144, 255;
+        --secondary: 59, 158, 255;
+    }
+}
