@@ -15,7 +15,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Rubik', 'sans-serif'],
+      'anek-malayalam': ['Anek Malayalam', 'sans'],
+      'instrument-sans': ['Instrument Sans', 'sans'],
     },
     extend: {
       textColor: {
